@@ -1,0 +1,13 @@
+---
+name: shell
+pack: st2-chatops
+runner_type: "local-shell-cmd"
+description: Runs an arbitrary shell command
+enabled: true
+entry_point: ""
+parameters:
+  cmd:
+    type: string
+    description: Shell command to run
+    required: false
+    position: 1

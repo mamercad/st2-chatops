@@ -1,0 +1,7 @@
+---
+name: uptime
+pack: st2-chatops
+description: Displays the box's uptime
+action_ref: st2-chatops.uptime
+formats:
+  - "uptime"

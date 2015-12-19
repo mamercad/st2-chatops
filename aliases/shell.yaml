@@ -1,0 +1,7 @@
+---
+name: shell
+pack: st2-chatops
+description: Runs an arbitrary shell command
+action_ref: st2-chatops.shell
+formats:
+  - "shell {{ cmd }}"

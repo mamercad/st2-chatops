@@ -1,0 +1,13 @@
+---
+name: uptime
+pack: st2-chatops
+runner_type: "local-shell-cmd"
+description: Displays the box's uptime
+enabled: true
+entry_point: uptime.sh
+# parameters:
+#     greeting:
+#         type: string
+#         description: Greeting you want to say to StackStorm (i.e. Hello, Hi, Yo, etc.)
+#         required: true
+#         position: 1
