@@ -1,0 +1,7 @@
+---
+name: ansible
+pack: st2-chatops
+description: Runs an arbitrary ansible command
+action_ref: st2-chatops.ansible
+formats:
+  - "ansible {{ cmd }}"

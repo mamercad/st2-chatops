@@ -1,0 +1,13 @@
+---
+name: ansible
+pack: st2-chatops
+runner_type: "local-shell-cmd"
+description: Runs an arbitrary ansible command
+enabled: true
+entry_point: ""
+parameters:
+  cmd:
+    type: string
+    description: Ansible command to run
+    required: false
+    position: 1

@@ -5,6 +5,8 @@ keywords:
     - st2-chatops
     - stackstorm
     - chatops
+    - shell
+    - ansible
 version: 0.1
 author: Mark Mercado
 email: mamercad@umflint.edu
