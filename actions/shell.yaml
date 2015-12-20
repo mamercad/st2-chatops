@@ -5,6 +5,7 @@ runner_type: "local-shell-cmd"
 description: Runs an arbitrary shell command
 enabled: true
 entry_point: ""
+timeout: 900 # might take a while
 parameters:
   cmd:
     type: string
